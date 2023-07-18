@@ -1,0 +1,475 @@
+
+body {
+   background-color: rgb(220, 220, 220);
+   display: block;
+   margin: 0;
+   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+   --color1: #FFF ;
+   --color2: #181818 ;
+   --color3: #032A36;
+}
+.immag{
+    max-width: 100%;
+    height: 100%;
+    display: block; 
+}
+/*Footer*/
+footer  {
+   background:#032A36;
+   padding: 20px;
+}
+.left-image{
+width: 200px;
+margin: 20px 20px ;
+}
+.left-image01{
+width: 290px;
+margin: 20px 20px ;
+}
+.footer-content {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+ }
+ .footer-content01 {
+   display: flex;
+   margin: 20px 20px ;
+ }
+p {
+/*FONTS*/ 
+margin-bottom:40px;
+color: var(--color1);
+font-size: 30px;
+line-height: 1.4;
+margin: 20px auto 1.4rem auto
+ }
+ h3 {
+/*FONTS*/
+text-align: center;
+font-size: 35px;
+font-weight: bold;
+color: #ffffff;
+ }
+ /*Footer*/
+ /*Home*/
+.in{
+   color: var(--color1);
+  font-size: 30px;
+  float: left;
+  margin: 10px;
+  padding: 20px;
+}
+.Immagi{
+height: auto;
+width: 100%;
+object-fit: cover;
+object-position: center;
+}
+.herok {
+   position: relative;
+}
+.herok .immag{
+   max-height: 100%;
+   width: 100%;
+   object-fit: cover;
+   object-position: center;
+}
+.hero0 {
+   position: relative;
+}
+.hero0 .immag {
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+   object-position: center;
+}
+.hero0 .Immagi :before {
+   content: "";
+   background-color: rgba(255, 247, 0, 0.4);
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+}
+.text0 {
+/*FONTS*/
+   max-width: 10px;
+   margin: 0;
+   padding: 0 16px;
+}
+.hero0 h2 {
+   font-size: 70px;  
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   color: var(--color1);
+   z-index: 100;
+   margin: 0;
+  /*FONTS*/
+}
+.hero1 {
+   position: relative;
+}
+.hero1 .immag{
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+   object-position: center;
+}
+.hero1 .Immagi :before {
+   content: "";
+   background-color: rgba(184, 16, 4, 0.286);
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+}
+.text1 {
+   max-width: 10px;
+   margin: auto;
+   padding: 0 16px;
+   /*FONTS*/
+}
+.hero1 h2 {
+   font-size: 70px;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   color: var(--color1);
+   z-index: 100;
+   margin: 0;
+ /*FONTS*/
+}
+.hero2 {
+   position: relative;
+}
+.hero2 .immag {
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
+   object-position: center;
+}
+.hero2 .Immagi :before {
+   content: "";
+   background-color: rgba(4, 13, 136, 0.56);
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+}
+.text2 {
+   max-width: 10px;
+   margin: auto;
+   padding: 0 16px;
+}
+.hero2 h2 {
+   font-size: 70px;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   color: var(--color1);
+   z-index: 100;
+   margin: 0;
+   /*FONTS*/
+}
+.hero3 {
+   position: relative;
+}
+.hero3 .immag {
+   max-height: 100%;
+   width: 100%;
+   object-fit: cover;
+   object-position: center;
+}
+.hero3 .Immagi :before {
+   content: "";
+   background-color: rgba(3, 89, 3, 0.4);
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+}
+.text3 {
+   max-width: 10px;
+   margin: auto;
+   padding: 0 16px;
+}
+.hero3 h2 {
+   font-size: 70px;
+   position: absolute;
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+   color: var(--color1);
+   z-index: 100;
+   margin: 0;
+  /*FONTS*/
+}
+/*Home Fine*/
+/*IDER */
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+.nav-bar {
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   list-style: none;
+   position: relative;
+   background-color: var(--color3);
+   padding: 12px 20px;
+}
+header a {
+   text-decoration: none;
+   color: var(--color1);
+}
+.menu {
+display: flex;}
+
+.menu li {
+padding-left: 30px;}
+
+.menu li a {
+   display: inline-block;
+   text-decoration: none;
+   color: var(--color1);
+   text-align: center;
+   transition: 0.15s ease-in-out;
+   position: relative;
+   text-transform: uppercase;
+}
+.menu li a::after {
+   content: "";
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 0;
+   height: 1px;
+   background-color: var(--color1);
+   transition: 0.15s ease-in-out;
+}
+.menu li a:hover:after {
+width: 100%;}
+
+.open-menu , .close-menu {
+   position: absolute;
+   color: var(--color1);
+   cursor: pointer;
+   font-size: 1.5rem;
+   display: none;
+}
+.open-menu {
+   top: 50%;
+   right: 20px;
+   transform: translateY(-50%);
+}
+.close-menu {
+   top: 20px;
+   right: 20px;
+}
+#check {
+display: none;}
+/*FINE IDER  COD*/
+/*Css scritte iniziali pagine*/
+section.heroo {
+   background-color: rgb(2, 1, 31); 
+   text-align: center;
+}
+section.heroo h1 {
+  /*FONTS*/
+   margin: 0;
+   padding: 40px 10px;
+   font-size: 40px;
+   color: var(--color1);
+}
+section.heroo1 {
+   background-color: rgba(173, 136,22); 
+   text-align: center;
+}
+section.heroo1 h1 {
+   margin: 0;
+   /*FONTS*/
+   padding: 40px 10px;
+   font-size: 40px;
+   color: var(--color1);
+}
+section.heroo2 {
+   background-color: rgba(82, 23,22); 
+   text-align: center;
+}
+section.heroo2 h1 {
+   margin: 0;
+   /*FONTS*/
+   padding: 40px 10px;
+   font-size: 40px;
+   color: var(--color1);
+}
+section.heroo3 {
+   background-color: rgba(8,6,93); 
+   text-align: center;
+}
+section.heroo3 h1 {
+   margin: 0;
+/*FONTS*/
+   padding: 40px 10px;
+   font-size: 40px;
+   color: rgba(253, 253, 253, 0.9);
+}
+section.heroo4 {
+   background-color: rgba(36,64,50); 
+   text-align: center;
+}
+section.heroo4 h1 {
+   margin: 0;
+ /*FONTS*/
+   padding: 40px 10px;
+   font-size: 40px;
+   color: var(--color1);
+}
+section.heroo5 {
+   background-color: rgba(57, 36, 60); 
+   text-align: center;
+}
+section.heroo5 h1 {
+   margin: 0;
+   /*FONTS*/
+   padding: 40px 10px;
+   font-size: 40px;
+   color: var(--color1);
+}
+/*Css scritte iniziali pagine*/
+/*Css Pagine*/  
+main{
+   background-color: var(--color1);
+}
+img {
+   max-width: 100%; 
+   display: block;
+}
+main, .Container{
+   max-width: 1000px;
+   margin: auto; 
+   padding: 20px;  
+}
+.testo p{
+/*font-family:;*/
+color: var(--color2);
+font-size: 20px;
+line-height: 1.4;
+margin: 20px auto 1.4rem auto;
+max-width:60ch;
+}
+.Container h2{
+   font-size: 30px;
+   color: rgb(255, 168, 0);
+  /**/
+}
+.Container .immagine {
+   max-width: 100%; /*Immagine*/
+}
+.immagine .testo {
+width: 100%;
+}
+.immagine .frame{
+   padding: 8px;
+   border: 3px solid;
+   border-color:rgba(204, 160, 75, 1);
+}
+.c-text {
+   color: rgba(255, 168, 0, 1);
+   font-weight: bold;
+   }
+/*Fine Css Pagine*/
+@media screen  and (max-width:850px){/*Menu H*/
+   .menu  {
+   position: absolute;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   width: 100%;
+   height: 40%;
+   position: fixed;
+   top: 0;
+   right: -100%;
+   z-index: 100; 
+  background-color: var(--color3); 
+   transition: all 0.2s ease-in-out;
+  }
+  .menu li {margin-top: 5px;}
+  .menu li a {padding: 10px;}
+  .open-menu , .close-menu {display: block;}
+  #check:checked ~ .menu {right: 0;}
+  
+}   
+@media screen and  (max-width: 600px) {
+  .footer-content{
+   flex-direction: column ; 
+   margin: 5px 5px;
+  }
+  .left-image{
+   width: 150px;
+   margin: 10px 10px ;
+}
+.left-image01{
+   width: 200px;
+   margin: 10px 10px ;
+}
+p{
+   font-size: 20px;  
+   }
+main, .Container{
+   max-width: 1000px;
+   margin: auto; 
+   padding: 10px;  
+}
+   h3{
+      font-size: 15px;   
+   }
+  header  a{
+  font-size: 15px;
+}
+  .herok h2{
+  font-size: 18px; 
+   bottom: 65px;
+   }   
+  .herok p{
+  font-size: 10px; 
+   } 
+   .hero0 h2{
+  font-size: 25px; 
+   } 
+   .hero1 h2{
+  font-size: 25px; 
+   }  
+   .hero2 h2{
+  font-size: 25px; 
+   } 
+   .hero3 h2{
+  font-size: 25px;  
+   }  
+section.heroo1 h1 {
+   font-size: 30px; 
+}
+ section.heroo2 h1 {
+   font-size: 30px; 
+}  
+section.heroo2 h1 {
+   font-size: 30px; 
+}
+section.heroo4 h1 {
+   font-size: 30px; 
+}
+section.heroo5 h1 {
+   font-size: 30px; 
+}
+} 
