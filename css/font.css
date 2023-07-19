@@ -5,14 +5,17 @@
     font-weight:bold;
 }
 
+
+
 @font-face {
-    font-family: "SourceSerif4-bold";
-    src: url(../font/SourceSerif4-Semibold.otf.woff2);
-    font-weight: bold;
+    font-family: "SpaceGrotesk-regular";
+    src: url(../font/SpaceGrotesk-Regular.woff2);
+    font-weight:bold;
 }
 
 @font-face {
-    font-family: "SourceSerif4-Regular";
-    src: url(../font/SourceSerif4-Regular.otf.woff2);
-    font-weight: normal;
+    font-family: "SpaceGrotesk-regular-bold";
+    src: url(../font/SpaceGrotesk-Regular.woff2);
+    font-weight:bold;
+
 }
