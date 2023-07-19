@@ -36,7 +36,7 @@ margin: 20px 20px ;
    margin: 20px 20px ;
  }
 p {
-/**/
+font-family: "SpaceGrotesk-regular";
 margin-bottom:40px;
 color: var(--color1);
 font-size: 30px;
