@@ -1,4 +1,4 @@
-
+@import url(font.css);
 body {
    background-color: rgb(220, 220, 220);
    display: block;
@@ -7,6 +7,7 @@ body {
    --color1: #FFF ;
    --color2: #181818 ;
    --color3: #032A36;
+   --color4: #ff0202;
 }
 .immag{
     max-width: 100%;
@@ -36,19 +37,12 @@ margin: 20px 20px ;
    margin: 20px 20px ;
  }
 p {
-/*FONTS*/ 
+font-family: "SourceSerif4-Regular";
 margin-bottom:40px;
 color: var(--color1);
 font-size: 30px;
 line-height: 1.4;
 margin: 20px auto 1.4rem auto
- }
- h3 {
-/*FONTS*/
-text-align: center;
-font-size: 35px;
-font-weight: bold;
-color: #ffffff;
  }
  /*Footer*/
  /*Home*/
@@ -93,12 +87,12 @@ object-position: center;
    height: 100%;
 }
 .text0 {
-/*FONTS*/
    max-width: 10px;
    margin: 0;
    padding: 0 16px;
 }
 .hero0 h2 {
+   font-family: "SpaceGrotesk-bold";
    font-size: 70px;  
    position: absolute;
    left: 50%;
@@ -107,7 +101,6 @@ object-position: center;
    color: var(--color1);
    z-index: 100;
    margin: 0;
-  /*FONTS*/
 }
 .hero1 {
    position: relative;
@@ -131,9 +124,9 @@ object-position: center;
    max-width: 10px;
    margin: auto;
    padding: 0 16px;
-   /*FONTS*/
 }
 .hero1 h2 {
+   font-family: "SpaceGrotesk-bold";
    font-size: 70px;
    position: absolute;
    left: 50%;
@@ -142,7 +135,6 @@ object-position: center;
    color: var(--color1);
    z-index: 100;
    margin: 0;
- /*FONTS*/
 }
 .hero2 {
    position: relative;
@@ -168,6 +160,7 @@ object-position: center;
    padding: 0 16px;
 }
 .hero2 h2 {
+   font-family: "SpaceGrotesk-bold";
    font-size: 70px;
    position: absolute;
    left: 50%;
@@ -176,7 +169,7 @@ object-position: center;
    color: var(--color1);
    z-index: 100;
    margin: 0;
-   /*FONTS*/
+
 }
 .hero3 {
    position: relative;
@@ -210,7 +203,7 @@ object-position: center;
    color: var(--color1);
    z-index: 100;
    margin: 0;
-  /*FONTS*/
+   font-family: "SpaceGrotesk-bold";
 }
 /*Home Fine*/
 /*IDER */
@@ -232,6 +225,7 @@ object-position: center;
 header a {
    text-decoration: none;
    color: var(--color1);
+   font-family: "SpaceGrotesk-bold";
 }
 .menu {
 display: flex;}
@@ -255,11 +249,12 @@ padding-left: 30px;}
    left: 0;
    width: 0;
    height: 1px;
-   background-color: var(--color1);
+   background-color: var(--color4);
    transition: 0.15s ease-in-out;
 }
 .menu li a:hover:after {
 width: 100%;}
+
 
 .open-menu , .close-menu {
    position: absolute;
@@ -286,8 +281,7 @@ section.heroo {
    text-align: center;
 }
 section.heroo h1 {
-  /*FONTS*/
-   margin: 0;
+   font-family: "SpaceGrotesk-bold";   margin: 0;
    padding: 40px 10px;
    font-size: 40px;
    color: var(--color1);
@@ -298,7 +292,7 @@ section.heroo1 {
 }
 section.heroo1 h1 {
    margin: 0;
-   /*FONTS*/
+   font-family: "SpaceGrotesk-bold";
    padding: 40px 10px;
    font-size: 40px;
    color: var(--color1);
@@ -309,7 +303,7 @@ section.heroo2 {
 }
 section.heroo2 h1 {
    margin: 0;
-   /*FONTS*/
+   font-family: "SpaceGrotesk-bold";
    padding: 40px 10px;
    font-size: 40px;
    color: var(--color1);
@@ -320,7 +314,7 @@ section.heroo3 {
 }
 section.heroo3 h1 {
    margin: 0;
-/*FONTS*/
+   font-family: "SpaceGrotesk-bold";
    padding: 40px 10px;
    font-size: 40px;
    color: rgba(253, 253, 253, 0.9);
@@ -331,7 +325,7 @@ section.heroo4 {
 }
 section.heroo4 h1 {
    margin: 0;
- /*FONTS*/
+   font-family: "SpaceGrotesk-bold";
    padding: 40px 10px;
    font-size: 40px;
    color: var(--color1);
@@ -342,7 +336,7 @@ section.heroo5 {
 }
 section.heroo5 h1 {
    margin: 0;
-   /*FONTS*/
+   font-family: "SpaceGrotesk-bold";
    padding: 40px 10px;
    font-size: 40px;
    color: var(--color1);
@@ -362,7 +356,7 @@ main, .Container{
    padding: 20px;  
 }
 .testo p{
-/*font-family:;*/
+font-family: "SourceSerif4-Regular";
 color: var(--color2);
 font-size: 20px;
 line-height: 1.4;
@@ -372,7 +366,6 @@ max-width:60ch;
 .Container h2{
    font-size: 30px;
    color: rgb(255, 168, 0);
-  /**/
 }
 .Container .immagine {
    max-width: 100%; /*Immagine*/
@@ -387,7 +380,7 @@ width: 100%;
 }
 .c-text {
    color: rgba(255, 168, 0, 1);
-   font-weight: bold;
+   font-family: "SourceSerif4-bold";
    }
 /*Fine Css Pagine*/
 @media screen  and (max-width:850px){/*Menu H*/
@@ -405,8 +398,8 @@ width: 100%;
   background-color: var(--color3); 
    transition: all 0.2s ease-in-out;
   }
-  .menu li {margin-top: 5px;}
-  .menu li a {padding: 10px;}
+  .menu li {margin-top: 2.5px;}
+  .menu li a {padding: 8px;}
   .open-menu , .close-menu {display: block;}
   #check:checked ~ .menu {right: 0;}
   

@@ -1,0 +1,18 @@
+
+@font-face {
+    font-family: "SpaceGrotesk-bold";
+    src: url(../font/SpaceGrotesk-Bold.woff2);
+    font-weight:bold;
+}
+
+@font-face {
+    font-family: "SourceSerif4-bold";
+    src: url(../font/SourceSerif4-Semibold.otf.woff2);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "SourceSerif4-Regular";
+    src: url(../font/SourceSerif4-Regular.otf.woff2);
+    font-weight: normal;
+}
