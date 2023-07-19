@@ -447,34 +447,6 @@ width: 100%;
   background-color: var(--color3); 
    transition: all 0.2s ease-in-out;
   }
-  .menu  {
-   position: absolute;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   width: 100%;
-   height: 40%;
-   position: fixed;
-   top: 0;
-   right: -100%;
-   z-index: 100; 
-  background-color: var(--color3); 
-   transition: all 0.2s ease-in-out;
-  }
-  .menu  {
-   position: absolute;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   width: 100%;
-   height: 40%;
-   position: fixed;
-   top: 0;
-   right: -100%;
-   z-index: 100; 
-  background-color: var(--color3); 
-   transition: all 0.2s ease-in-out;
-  }
   .menu li {margin-top: 2.5px;}
   .menu li a {padding: 8px;}
   .open-menu , .close-menu {display: block;}
@@ -495,7 +467,7 @@ width: 100%;
    margin: 10px 10px ;
 }
 p{
-   font-size: 20px;  
+   font-size: 12px;  
    }
 main, .Container{
    max-width: 1000px;
