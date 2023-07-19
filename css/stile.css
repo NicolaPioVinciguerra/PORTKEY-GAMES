@@ -96,6 +96,7 @@ object-position: center;
    max-width: 10px;
    margin: 0;
    padding: 0 16px;
+
 }
 .hero0 h2 {
    font-family: "SpaceGrotesk-bold";
@@ -211,6 +212,60 @@ object-position: center;
    margin: 0;
    font-family: "SpaceGrotesk-bold";
 }
+
+.hero0::after {
+   content: '';
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 0;
+   height: 8px;
+   background-color: rgb(255, 255, 255);
+   transition: width 0.3s ease-in-out;
+ }
+ .hero0:hover::after {
+   width: 100%;
+ }
+ .hero1::after {
+   content: '';
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 0;
+   height: 8px;
+   background-color: rgb(255, 255, 255);
+   transition: width 0.3s ease-in-out;
+ }
+ .hero1:hover::after {
+   width: 100%;
+ }
+ .hero2::after {
+   content: '';
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 0;
+   height: 8px;
+   background-color: rgb(255, 255, 255);
+   transition: width 0.3s ease-in-out;
+ }
+ .hero2:hover::after {
+   width: 100%;
+ }
+ .hero3::after {
+   content: '';
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 0;
+   height: 8px;
+   background-color: rgb(255, 255, 255);
+   transition: width 0.3s ease-in-out;
+ } 
+ .hero3:hover::after {
+   width: 100%;
+ }
+ 
 /*Home Fine*/
 /*IDER */
 *{
