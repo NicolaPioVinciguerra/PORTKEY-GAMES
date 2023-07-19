@@ -365,6 +365,7 @@ max-width:60ch;
 .Container h2{
    font-size: 30px;
    color: rgb(255, 168, 0);
+   font-family: "SpaceGrotesk-bold";
 }
 .Container .immagine {
    max-width: 100%; /*Immagine*/
